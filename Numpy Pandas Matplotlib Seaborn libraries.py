@@ -5,30 +5,21 @@
 
 # In[2]:
 
-
 import numpy as np
-
 
 # In[3]:
 
-
 arr=np.array([1,2,3])
-
 
 # In[4]:
 
-
 li=[1,2,3]
-
 
 # In[5]:
 
-
 type(arr)
 
-
 # In[6]:
-
 
 print("=== NumPy Array Creation ===")
 a = np.array([1, 2, 3])
@@ -170,7 +161,6 @@ print("9. df.info():"); df.info() #overall info
 
 # In[15]:
 
-
 print("\n=== 3. Descriptive Statistics ===")
 print("10. df.describe():\n", df.describe())
 print("11. df['Age'].mean():", df['Age'].mean())
@@ -182,21 +172,7 @@ print("14. df['Score'].isnull():\n", df['Score'].isnull().sum())
 
 # In[16]:
 
-
 df.head(2)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
 
 # In[17]:
 
@@ -282,11 +258,6 @@ print("30. Drop column 'Passed':\n", df.drop(columns=['Passed']))
 
 
 # # MATPLOTLIB & SEABORN
-
-# In[ ]:
-
-
-
 
 
 # In[58]:
@@ -377,13 +348,6 @@ sns.pairplot(df[['Value1', 'Value2', 'Score']])
 plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
